@@ -14,15 +14,15 @@ func Test_add(t *testing.T) {
 	}{
 		{
 			args: args{
-				x:int64(1),
-				y:int64(2),
+				x: int64(1),
+				y: int64(2),
 			},
 			want: int64(3),
 		},
 		{
 			args: args{
-				x:int64(10),
-				y:int64(-10),
+				x: int64(10),
+				y: int64(-10),
 			},
 			want: int64(0),
 		},

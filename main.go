@@ -7,6 +7,6 @@ const (
 )
 
 func main() {
-	fmt.Println(add(3,4))
+	fmt.Println(add(3, 4))
 	fmt.Println(Arccos(1.0))
 }
